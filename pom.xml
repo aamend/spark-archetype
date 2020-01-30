@@ -4,7 +4,7 @@
 
     <groupId>com.aamend.spark</groupId>
     <artifactId>archetype</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>maven-archetype</packaging>
     <name>spark-archetype</name>
 
@@ -17,7 +17,7 @@
     <scm>
         <url>https://github.com/aamend/spark-archetype</url>
         <connection>scm:git:git@github.com:aamend/spark-archetype.git</connection>
-        <tag>spark-archetype</tag>
+        <tag>archetype-1.0</tag>
     </scm>
 
     <developers>
