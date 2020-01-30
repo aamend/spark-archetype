@@ -24,7 +24,7 @@ Should you need to include third parties dependencies, packaging shaded jar as f
 
 Spark module can be validated as follows
 
-`spark-submit --class ${groupId}.App target/${artifactId}.${version}.jar`
+`spark-submit --class com.aamend.spark.ml.App target/my-awesome-module-2.0-SNAPSHOT.jar`
 
 ## Compile
 
