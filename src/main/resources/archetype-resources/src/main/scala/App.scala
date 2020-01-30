@@ -1,20 +1,17 @@
 package ${package}
 
-import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.{DataFrame, SparkSession}
 
 object App {
 
-  def main(args: Array[String]): Unit = {
-
-    val spark = SparkSession
-      .builder()
-      .appName("${artifactId}")
-      .getOrCreate()
-
+  def generateDataframe(spark: SparkSession): DataFrame = {
     import spark.implicits._
+    List("${groupId}:${artifactId}:${version}").toDF("maven")
+  }
 
-    List("Sample application").toDF("test").show(1, false)
-
+  def main(args: Array[String]): Unit = {
+    val spark = SparkSession.builder().appName("spark-test").getOrCreate()
+    generateDataframe(spark).show(1, truncate = false)
   }
 
 }

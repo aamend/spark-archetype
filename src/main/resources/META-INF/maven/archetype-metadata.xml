@@ -9,11 +9,5 @@
     <fileSet filtered="true" packaged="true">
       <directory>src/test/scala</directory>
     </fileSet>
-    <fileSet>
-      <directory></directory>
-      <includes>
-        <include>LICENSE.txt</include>
-      </includes>
-    </fileSet>
   </fileSets>
 </archetype-descriptor>

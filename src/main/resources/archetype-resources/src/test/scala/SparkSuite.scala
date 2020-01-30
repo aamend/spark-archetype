@@ -5,7 +5,7 @@ import java.io.File
 import org.apache.spark.sql.SparkSession
 import org.scalatest.{BeforeAndAfterAll, FunSuite}
 
-trait SparkSpec extends FunSuite with BeforeAndAfterAll {
+trait SparkSuite extends FunSuite with BeforeAndAfterAll {
 
   def sparkTest(name: String)(f: SparkSession => Unit): Unit = {
 

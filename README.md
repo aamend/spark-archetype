@@ -8,8 +8,8 @@ mvn archetype:generate \
     -DinteractiveMode=false \
     -DarchetypeGroupId=com.aamend.spark \
     -DarchetypeArtifactId=archetype \
-    -DarchetypeVersion=1.0 \
-    -DgroupId=io.gzet \
+    -DarchetypeVersion=1.0-SNAPSHOT \
+    -DgroupId=com.aamend.spark \
     -DartifactId=my-awesome-module \
-    -Dversion=1.0-SNAPSHOT
+    -Dversion=2.0-SNAPSHOT
 ```
