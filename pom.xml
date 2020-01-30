@@ -11,6 +11,8 @@
         Simple archetype to generate spark based project using Maven.
     </description>
 
+    <url>https://github.com/aamend/spark-archetype</url>
+
     <scm>
         <url>https://github.com/aamend/spark-archetype</url>
         <connection>scm:git:git@github.com:aamend/spark-archetype.git</connection>
